@@ -1,0 +1,51 @@
+<!--/**************************************
+TITLE: Lab 4 - jQuery
+AUTHOR: Andrew Hage (AH)
+CREATE DATE: March 18, 2024
+PURPOSE: This lab demonstrates material from chapter 7 of the textbook.
+LAST MODIFIED ON: March 27,2024
+LAST MODIFIED BY: Andrew Hage(AH)
+MODIFICATION HISTORY: Added jQuery plugin HTML file (AH)
+**************************************-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 4 Restaurant Theme</title>
+    <link rel="stylesheet" href="styling.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> <!-- 4) Use a jQuery plugin to add functionality to your page.-->
+    <script src="C:\Users\Andrew\Downloads\jquery-ui-1.13.2.custom\jquery-ui-1.13.2.custom\jquery-ui.min.js"></script> <!--23) Use a jQuery plugin to add functionality to your page. be sure to use something that creates a noticeable change to your page. -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- Accordion -->
+<h2 class="demoHeaders">Accordion</h2>
+<div id="accordion">
+	<h3>First</h3>
+	<div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
+	<h3>Second</h3>
+	<div>Phasellus mattis tincidunt nibh.</div>
+	<h3>Third</h3>
+	<div>Nam dui erat, auctor a, dignissim quis.</div>
+</div>
+
+<div id="welcome-message">Welcome to Tony's Steakhouse</div>
+<ul class="menu-items">
+    <li>Tomahawk Ribeye</li>
+    <li>Chopped Salad</li>
+    <li>Carrot Cake</li>
+</ul>
+
+<button id="changeMenuButton">Change Menu</button>
+
+<div id="specials">Tonight's Specials</div>
+
+<form>
+    <input type="text" id="reservationName" placeholder="Name for reservation">
+    <input type="submit" value="Book Table">
+</form>
+
+</body>
+</html>
